@@ -1,0 +1,8 @@
+<resources>
+    <dimen name="elegmat_icon_dimensions">80dp</dimen>
+    <dimen name="elegmat_margin">20dp</dimen>
+    <dimen name="elegmat_padding">60dp</dimen>
+    <dimen name="elegtema_margin1">20dp</dimen>
+    <dimen name="elegtema_item_img_margin">15dp</dimen>
+    <dimen name="elegtema_item_margin">50dp</dimen>
+</resources>
