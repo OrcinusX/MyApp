@@ -28,10 +28,10 @@ public class ElegirMateria extends AppCompatActivity
 
         // Carga el contenido de la carta
         // (CardView) lo convierte a vista desde el ID
-        cardViewMat = (CardView) findViewById(R.id.card_mat);
-        cardViewEsi = (CardView) findViewById(R.id.card_esi);
-        cardViewBio = (CardView) findViewById(R.id.card_bio);
-        cardViewLen = (CardView) findViewById(R.id.card_len);
+        cardViewMat = findViewById(R.id.card_mat);
+        cardViewEsi = findViewById(R.id.card_esi);
+        cardViewBio = findViewById(R.id.card_bio);
+        cardViewLen = findViewById(R.id.card_len);
 
         // Declara que se puedan hacer click y pase algo
         cardViewMat.setOnClickListener(this);
@@ -46,6 +46,7 @@ public class ElegirMateria extends AppCompatActivity
 
         // Variable intent 
         Intent i;
+        //noinspection SwitchStatementWithTooFewBranches
         switch (v.getId()) {
             case R.id.card_mat:
                 i = new Intent(this, ElegirTemaSearchAndList.class);

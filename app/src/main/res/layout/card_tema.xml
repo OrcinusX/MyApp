@@ -25,7 +25,8 @@
             android:layout_marginTop="@dimen/elegtema_item_img_margin"
             android:layout_marginEnd="@dimen/elegtema_item_img_margin"
             android:layout_marginBottom="@dimen/elegtema_item_img_margin"
-            android:src="@drawable/pot">
+            android:src="@drawable/pot"
+            tools:ignore="ContentDescription">
         </ImageView>
 
         <TextView
