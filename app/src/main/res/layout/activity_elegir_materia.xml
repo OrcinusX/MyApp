@@ -6,18 +6,18 @@
     android:layout_height="match_parent"
     android:background="@color/colorPrimaryDark"
     tools:context=".ElegirMateria"
-    android:paddingTop="@dimen/elegmat_padding"
-    android:paddingBottom="@dimen/elegmat_padding">
+    android:paddingTop="60dp"
+    android:paddingBottom="60dp">
 
     <TextView
         android:id="@+id/t_elegmat"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:text="@string/elegmat"
+        android:layout_marginTop="20dp"
+        android:text="¿Que queres aprender?"
         android:textColor="@color/white"
-        android:textSize="30sp"
-        android:layout_marginTop="@dimen/elegmat_margin"/>
+        android:textSize="30sp" />
 
 
     <!-- Layout con las materias -->
@@ -27,7 +27,7 @@
         android:layout_height="match_parent"
         android:layout_below="@+id/t_elegmat"
         android:layout_alignParentStart="true"
-        android:layout_margin="@dimen/elegmat_margin"
+        android:layout_margin="20dp"
         android:columnCount="2"
         android:rowCount="2">
 
@@ -56,8 +56,9 @@
                 tools:ignore="UseCompoundDrawables">
 
                 <ImageView
-                    android:layout_width="@dimen/elegmat_icon_dimensions"
-                    android:layout_height="@dimen/elegmat_icon_dimensions"
+                    android:id="@+id/Mate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
                     android:src="@drawable/ic_calculator_solid"
                     tools:ignore="contentDescription" />
 
@@ -65,7 +66,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
-                    android:text="@string/mat"
+                    android:text="Matematica"
                     android:textAlignment="center"
                     android:textSize="20sp"
                     android:textStyle="bold"
@@ -99,8 +100,8 @@
                 tools:ignore="UseCompoundDrawables">
 
                 <ImageView
-                    android:layout_width="@dimen/elegmat_icon_dimensions"
-                    android:layout_height="@dimen/elegmat_icon_dimensions"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
                     android:src="@drawable/ic_heart_solid"
                     tools:ignore="contentDescription" />
 
@@ -139,8 +140,8 @@
                 tools:ignore="UseCompoundDrawables">
 
                 <ImageView
-                    android:layout_width="@dimen/elegmat_icon_dimensions"
-                    android:layout_height="@dimen/elegmat_icon_dimensions"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
                     android:src="@drawable/ic_dna_solid"
                     tools:ignore="contentDescription" />
 
@@ -148,7 +149,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
-                    android:text="@string/bio"
+                    android:text="Biologia"
                     android:textAlignment="center"
                     android:textSize="20sp"
                     android:textStyle="bold"
@@ -177,15 +178,15 @@
                 android:orientation="vertical"
                 tools:ignore="UseCompoundDrawables">
                 <ImageView
-                    android:layout_width="@dimen/elegmat_icon_dimensions"
-                    android:layout_height="@dimen/elegmat_icon_dimensions"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
                     android:src="@drawable/ic_message_solid"
                     tools:ignore="contentDescription" />
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
-                    android:text="@string/len"
+                    android:text="Lengua"
                     android:textAlignment="center"
                     android:textSize="20sp"
                     android:textStyle="bold"

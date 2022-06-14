@@ -1,9 +1,18 @@
 <resources>
-    <string name="app_name">OrcinusX</string>
-    <string name="elegmat">¿Que querés aprender?</string>
-    <string name="mat">Matemática</string>
-    <string name="esi">Ed. Sexual</string>
-    <string name="bio">Biología</string>
-    <string name="len">Lengua</string>
-    <string name="busctema">Buscar tema…</string>
+    <string name="app_name">Orcinus</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="hola">HOLA</string>
+    <string name="biolog_a">Biología</string>
+    <string name="esi">Esi</string>
+    <string name="lengua">Lengua</string>
+    <string name="matematica">Matematica</string>
+    <string name="qu_queres_aprender_hoy">¿Qué queres aprender hoy?</string>
+    <string name="nombreusuario">NombreUsuario</string>
+    <string name="contrase_a">Contraseña</string>
+    <string name="ConfirmarContraseña" />
+    <string name="crear_cuenta">Crear Cuenta</string>
+    <string name="inciar_sesi_n_con_google_para_guardar_tu_progreso">Inciar sesión con Google para guardar tu progreso</string>
+    <string name="LogIn" />
+    <string name="confirmarcontrase_a">ConfirmarContraseña</string>
+    <string name="login">LogIN</string>
 </resources>

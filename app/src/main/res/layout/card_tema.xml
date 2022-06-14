@@ -21,10 +21,10 @@
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:layout_centerVertical="true"
-            android:layout_marginStart="@dimen/elegtema_item_img_margin"
-            android:layout_marginTop="@dimen/elegtema_item_img_margin"
-            android:layout_marginEnd="@dimen/elegtema_item_img_margin"
-            android:layout_marginBottom="@dimen/elegtema_item_img_margin"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="15dp"
             android:src="@drawable/pot"
             tools:ignore="ContentDescription">
         </ImageView>
@@ -34,7 +34,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-            android:layout_marginEnd="@dimen/elegtema_item_img_margin"
+            android:layout_marginEnd="15dp"
             android:layout_toEndOf="@id/list_temas_item_img"
             android:text="My List Item"
             android:textColor="@color/black"

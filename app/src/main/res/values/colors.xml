@@ -8,6 +8,10 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
+    <color name="color1">#175381</color>
+    <color name="color2">#103b5c</color>
+    <color name="color3">#4d81a2</color>
+
     <color name="transparent">#00000000</color>
     <color name="colorPrimary">#07AFF7</color>
     <color name="colorPrimaryDark">#124A82</color>
@@ -15,5 +19,6 @@
     <color name="colorIcons">#124A82</color>
     <color name="colorDeactivated">#848484</color>
     <color name="statusBar">#132762</color>
+
 
 </resources>
